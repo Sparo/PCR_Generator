@@ -4,8 +4,7 @@ interactive generator for production change request tickets for jira enviroment
 ### Required:
 **pcraws.sh** to be executable - in the folder where `pcraws.sh` is, run following command `sudo chmod +x pcraws.sh`
 
-### You will also need to update files within config data:
-- _all data in files should be in one line and it should be separated by space_
+### You will also need to update files within config data (_all data in files should be in one line and it should be separated by space - check `.line` files for examples):
 
 * **projects.line** (set aws names of the projects ex: **cnd** **lee**)
 * **ccs.line** (set jira account names to cc them in message. ex: **pperic** **mmikic** **zzikic** )
